@@ -1,0 +1,17 @@
+.block-search-form form .form-actions input {
+  right: -98px;
+}
+
+.block-search-form form .extendsearch-advanced span.fieldset-legend {
+  right: 9px;
+}
+
+.block-ding-user-frontend-ding-username h2,
+.block-user-login .block-title {
+  height: 31px;
+  padding-top: 0;
+}
+
+.block-search-form {
+  height: 60px;
+}
