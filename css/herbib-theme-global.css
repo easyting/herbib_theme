@@ -68,20 +68,24 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   background-color: #c0c0c0;
 }
 
-.block-main-menu .content ul li:first-child {
+.block-main-menu .content > ul li:first-child {
   background-color: #a94598;
 }
 
-.block-main-menu .content ul li:first-child + li {
+.block-main-menu .content > ul li:first-child + li {
   background-color: #178498;
 }
 
-.block-main-menu .content ul li:first-child + li + li {
+.block-main-menu .content > ul li:first-child + li + li {
   background-color: #c3bf2c;
 }
 
-.block-main-menu .content ul li:first-child + li + li + li {
+.block-main-menu .content > ul li:first-child + li + li + li {
   background-color: #85a0c3;
+}
+
+.block-main-menu .content > ul li ul li {
+  background: none !important;
 }
 
 .block-ding-library-library-address,
@@ -190,7 +194,10 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .page-user .pane-page-tabs.secondary-tabs,
 .pane-page-tabs ul.primary a:hover,
 .pane-page-tabs ul.primary li a:hover,
-.pane-aggregator-feed {
+.pane-aggregator-feed,
+.pane-page-tabs ul.primary a,
+.pane-parent-vocabulary-terms .views-row a,
+.pane-parent-vocabulary-terms .views-row .active {
   background-color: #151106;
 }
 
@@ -371,7 +378,11 @@ a:hover,
 .pane-node-comments .comment-links li,
 .pane-node-comments .comment-links li a,
 .pane-loans .operations .renew-loan-button input,
-.edit-user-profile .form-submit {
+.edit-user-profile .form-submit,
+.block-main-menu .content ul li ul.menu li.active a,
+.node-type-ding-page .pane-node-author a,
+.pane-system-main-menu ul li.expanded ul li a,
+.pane-ding-library-ding-sidebar-menu ul li.expanded ul li a {
   color: #ff6c00;
 }
 
