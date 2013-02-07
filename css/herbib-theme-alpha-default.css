@@ -1,0 +1,61 @@
+.block-ding-user-frontend-ding-user-loan-number,
+.block-system-user-menu.even {
+  top: 30px;
+}
+
+.block-system-user-menu {
+  top: 112px;
+}
+
+#region-header-second {
+  margin-top: 10px;
+}
+
+#block-menu-menu-secondary-menu {
+  float: inherit;
+}
+
+.block-search-form .form-radios {
+  overflow: hidden;
+  position: static;
+}
+
+.block-search-form {
+  height: 60px;
+}
+
+.node-type-ding-event .content-event-day .pane-content,
+.node-type-ding-event .content-event-month {
+  border-color: #79726a;
+}
+
+.block-main-menu .content ul li ul {
+  background-color: #fff;
+}
+
+.grid-4.region-branding {
+  padding-top: 40px;
+  position: absolute;
+  z-index: 40;
+}
+
+.region-user-second-inner {
+  position: relative;
+}
+
+.region-user-second {
+  padding-top: 141px;
+}
+
+.block-ding-user-frontend-ding-user-loan-number,
+.block-system-user-menu.even {
+  top: 30px;
+}
+
+.block-system-user-menu {
+  top: 112px;
+}
+
+.block-user-login .block-inner .content {
+  top: 30px;
+}
