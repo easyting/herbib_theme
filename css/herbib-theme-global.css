@@ -104,7 +104,9 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .node-type-ding-event .event-short-info .views-field-field-event-date,
 .node-type-ding-event .event-short-info .views-field-group-audience a,
 .node-type-ding-event .event-short-info .views-field-field-event-fee,
-.ui-dialog {
+.ui-dialog,
+.pane-ding-item-list .pane-title,
+.pane-ding-related-items .pane-title {
   background-color: #79726a;
 }
 
@@ -159,9 +161,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .pane-bookmarks .form-actions,
 .pane-loans .renew-loan-button,
 .responsive-layout-mobile .pane-reservations .op-reservations .delete-reservations,
-.responsive-layout-mobile .pane-reservations .op-reservations .update-reservations,
-.pane-ding-item-list .pane-title,
-.pane-ding-related-items .pane-title {
+.responsive-layout-mobile .pane-reservations .op-reservations .update-reservations {
   background-color: #ff6c00;
 }
 
@@ -189,7 +189,8 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .pane-page-tabs ul.primary a,
 .page-user .pane-page-tabs.secondary-tabs,
 .pane-page-tabs ul.primary a:hover,
-.pane-page-tabs ul.primary li a:hover {
+.pane-page-tabs ul.primary li a:hover,
+.pane-aggregator-feed {
   background-color: #151106;
 }
 
@@ -234,7 +235,8 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 }
 
 .block-ding-user-frontend-ding-username h2,
-.block-user-login .block-title {
+.block-user-login .block-title,
+.pane-aggregator-feed li {
   background-image: url(../images/white-menu-arrow.png);
 }
 
@@ -286,7 +288,10 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .page-ting-object .pane-ting-object-ding-availability-holdings h2,
 .page-ting-object .pane-ting-object-ding-availability-holdings table th,
 .responsive-layout-mobile #block-menu-menu-secondary-menu .menu li a,
-.responsive-layout-mobile #block-locale-language ul.language-switcher-locale-url li a {
+.responsive-layout-mobile #block-locale-language ul.language-switcher-locale-url li a,
+.pane-aggregator-feed .more-link a,
+.pane-ding-library-opening-hours-ding-library-opened-today .name a:link,
+.pane-ding-library-opening-hours-ding-library-opened-today .name a:visited {
   color: #fff;
 }
 
