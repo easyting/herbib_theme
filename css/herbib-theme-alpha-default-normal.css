@@ -1,0 +1,15 @@
+.block-search-form form .extendsearch-advanced .fieldset-wrapper {
+  width: 274px;
+}
+
+.block-main-menu .content > ul > li {
+  min-width: 153px;
+}
+
+.block-search-form .form-radios {
+  width: 300px;
+}
+
+.block-search-form .form-item-search-provider {
+  width: 33% !important;
+}
