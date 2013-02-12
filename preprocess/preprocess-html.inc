@@ -7,7 +7,7 @@ function herbib_theme_alpha_preprocess_html(&$vars) {
       'preprocess' => FALSE,
       'weight' => '99',
       'group' => 2001,
-	  'basename' => 'ie',
+      'basename' => 'ie',
     )
   );
   drupal_add_css(drupal_get_path('theme', 'herbib_theme') . '/css/ie/ie7-8.css',
@@ -16,7 +16,7 @@ function herbib_theme_alpha_preprocess_html(&$vars) {
       'preprocess' => FALSE,
       'weight' => '99',
       'group' => 2001,
-	  'basename' => 'ie7-8',
+      'basename' => 'ie7-8',
     )
   );
 
@@ -26,7 +26,7 @@ function herbib_theme_alpha_preprocess_html(&$vars) {
       'preprocess' => FALSE,
       'weight' => '99',
       'group' => 2001,
-	  'basename' => 'ie7',
+      'basename' => 'ie7',
     )
   );
 
@@ -36,7 +36,7 @@ function herbib_theme_alpha_preprocess_html(&$vars) {
       'preprocess' => FALSE,
       'weight' => '99',
       'group' => 2001,
-	  'basename' => 'ie9',
+      'basename' => 'ie9',
     )
   );
 }
