@@ -15,3 +15,31 @@
 .block-search-form {
   height: 60px;
 }
+
+.grid-4.region-branding {
+  top: 0;
+}
+
+.region-header-second-inner {
+  left: 0px;
+  top: 0;
+  width: 100%;
+}
+
+.region-user-first {
+  z-index: 49;
+}
+
+.region-user-second {
+  z-index: 50;
+}
+
+.zone-menu-wrapper {
+  position: relative;
+  z-index: 48;
+}
+
+.zone-branding-wrapper {
+  position: relative;
+  z-index: 60;
+}
