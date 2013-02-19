@@ -1,0 +1,45 @@
+.block-search-form form .form-actions input {
+  right: -98px;
+}
+
+.block-search-form form .extendsearch-advanced span.fieldset-legend {
+  right: 9px;
+}
+
+.block-ding-user-frontend-ding-username h2,
+.block-user-login .block-title {
+  height: 31px;
+  padding-top: 0;
+}
+
+.block-search-form {
+  height: 60px;
+}
+
+.grid-4.region-branding {
+  top: 0;
+}
+
+.region-header-second-inner {
+  left: 0px;
+  top: 0;
+  width: 100%;
+}
+
+.region-user-first {
+  z-index: 49;
+}
+
+.region-user-second {
+  z-index: 50;
+}
+
+.zone-menu-wrapper {
+  position: relative;
+  z-index: 48;
+}
+
+.zone-branding-wrapper {
+  position: relative;
+  z-index: 60;
+}
