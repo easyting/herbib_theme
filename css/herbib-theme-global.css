@@ -1,6 +1,8 @@
 body,
 .edit-user-profile input,
-#edit-account .form-text {
+#edit-account .form-text,
+.page-user-login .region-content-inner input[type="text"],
+.page-user-login .region-content-inner input[type="password"] {
   background-color: #a39e8f;
 }
 
@@ -382,7 +384,8 @@ a:hover,
 .block-main-menu .content ul li ul.menu li.active a,
 .node-type-ding-page .pane-node-author a,
 .pane-system-main-menu ul li.expanded ul li a,
-.pane-ding-library-ding-sidebar-menu ul li.expanded ul li a {
+.pane-ding-library-ding-sidebar-menu ul li.expanded ul li a,
+.page-user-login .region-content-inner .form-submit {
   color: #ff6c00;
 }
 
@@ -550,4 +553,16 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .pane-page-tabs ul.primary li {
   display: block;
+}
+
+.page-user-login .region-user-first {
+  margin-top: 200px;
+}
+
+.responsive-layout-mobile.page-user-login .region-user-first {
+  margin-top: 0;
+}
+
+.block-search-form .form-radios {
+  clear: both;
 }
