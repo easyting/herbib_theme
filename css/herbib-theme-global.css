@@ -275,6 +275,17 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   background-image: url(../images/grid-icons.png);
 }
 
+.pane-ding-facetbrowser label a,
+.page-ting-object .relations .fieldset-title,
+.page-ting-object .expanded .expand-relations,
+.page-ting-object .expanded-properties,
+.pane-ting-object-ting-relations .ting-relation .expanded,
+.pane-node-comments .expanded-comment-arrow,
+.page-search-meta .pane-ding-facetbrowser .option,
+.page-ting-object .group-content .field-group-format-title {
+  background-image: url(../images/checkbox-sprite.png);
+}
+
 /* Text colors */
 .block-ding-user-frontend-ding-username h2 span,
 .block-ding-user-frontend-ding-username h2,
@@ -385,7 +396,8 @@ a:hover,
 .node-type-ding-page .pane-node-author a,
 .pane-system-main-menu ul li.expanded ul li a,
 .pane-ding-library-ding-sidebar-menu ul li.expanded ul li a,
-.page-user-login .region-content-inner .form-submit {
+.page-user-login .region-content-inner .form-submit,
+.ding_nodelist-slider .legend span a {
   color: #ff6c00;
 }
 
@@ -565,4 +577,8 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .block-search-form .form-radios {
   clear: both;
+}
+
+#block-menu-menu-secondary-menu .menu li.expanded ul {
+  display: none;
 }
