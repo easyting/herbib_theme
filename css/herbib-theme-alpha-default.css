@@ -68,3 +68,16 @@
 #block-menu-menu-secondary-menu .menu li.last {
   float: right;
 }
+
+.responsive-layout-narrow .region-user-second {
+  padding-top: 85px;
+}
+
+.logo-img {
+  float: none;
+}
+
+.logo-img img {
+  height: auto;
+  width: 100%;
+}
