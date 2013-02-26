@@ -333,10 +333,7 @@ footer .block-menu li a:visited,
 footer .block-menu li a:hover,
 .block-system-user-menu ul li a:link,
 .block-system-user-menu ul li a:hover,
-.block-system-user-menu ul li a:visited {
-  color: #c35e2c;
-}
-
+.block-system-user-menu ul li a:visited,
 a:link,
 a:visited,
 a:hover,
@@ -398,7 +395,7 @@ a:hover,
 .pane-ding-library-ding-sidebar-menu ul li.expanded ul li a,
 .page-user-login .region-content-inner .form-submit,
 .ding_nodelist-slider .legend span a {
-  color: #ff6c00;
+  color: #cc5f0a;
 }
 
 .ting-search-carousel .ting-search-results .subtitle,
@@ -581,4 +578,8 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 #block-menu-menu-secondary-menu .menu li.expanded ul {
   display: none;
+}
+
+.logo-img {
+  margin: 0;
 }
