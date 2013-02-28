@@ -2,7 +2,8 @@ body,
 .edit-user-profile input,
 #edit-account .form-text,
 .page-user-login .region-content-inner input[type="text"],
-.page-user-login .region-content-inner input[type="password"] {
+.page-user-login .region-content-inner input[type="password"],
+.pane-ting-object-voxb-tags form .form-text {
   background-color: #a39e8f;
 }
 
@@ -112,7 +113,8 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .node-type-ding-event .event-short-info .views-field-field-event-fee,
 .ui-dialog,
 .pane-ding-item-list .pane-title,
-.pane-ding-related-items .pane-title {
+.pane-ding-related-items .pane-title,
+.pane-ting-object-voxb-tags .tag a {
   background-color: #79726a;
 }
 
@@ -167,7 +169,8 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .pane-bookmarks .form-actions,
 .pane-loans .renew-loan-button,
 .responsive-layout-mobile .pane-reservations .op-reservations .delete-reservations,
-.responsive-layout-mobile .pane-reservations .op-reservations .update-reservations {
+.responsive-layout-mobile .pane-reservations .op-reservations .update-reservations,
+.pane-ting-object-voxb-tags .tag a:hover {
   background-color: #ff6c00;
 }
 
@@ -394,7 +397,8 @@ a:hover,
 .pane-system-main-menu ul li.expanded ul li a,
 .pane-ding-library-ding-sidebar-menu ul li.expanded ul li a,
 .page-user-login .region-content-inner .form-submit,
-.ding_nodelist-slider .legend span a {
+.ding_nodelist-slider .legend span a,
+.pane-ting-object-voxb-tags form .form-submit {
   color: #cc5f0a;
 }
 
@@ -402,6 +406,10 @@ a:hover,
 .ding_nodelist-slider .legend h2,
 .page-taxonomy-term .pane-taxonomy-term .pane-title {
   color: #201a03;
+}
+
+.pane-ting-object-voxb-tags form .form-text {
+  color: #000;
 }
 
 /* Border colors */
