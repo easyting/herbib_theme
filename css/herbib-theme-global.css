@@ -2,7 +2,8 @@ body,
 .edit-user-profile input,
 #edit-account .form-text,
 .page-user-login .region-content-inner input[type="text"],
-.page-user-login .region-content-inner input[type="password"] {
+.page-user-login .region-content-inner input[type="password"],
+.pane-ting-object-voxb-tags form .form-text {
   background-color: #a39e8f;
 }
 
@@ -112,7 +113,8 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .node-type-ding-event .event-short-info .views-field-field-event-fee,
 .ui-dialog,
 .pane-ding-item-list .pane-title,
-.pane-ding-related-items .pane-title {
+.pane-ding-related-items .pane-title,
+.pane-ting-object-voxb-tags .tag a {
   background-color: #79726a;
 }
 
@@ -167,7 +169,8 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .pane-bookmarks .form-actions,
 .pane-loans .renew-loan-button,
 .responsive-layout-mobile .pane-reservations .op-reservations .delete-reservations,
-.responsive-layout-mobile .pane-reservations .op-reservations .update-reservations {
+.responsive-layout-mobile .pane-reservations .op-reservations .update-reservations,
+.pane-ting-object-voxb-tags .tag a:hover {
   background-color: #ff6c00;
 }
 
@@ -275,6 +278,17 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   background-image: url(../images/grid-icons.png);
 }
 
+.pane-ding-facetbrowser label a,
+.page-ting-object .relations .fieldset-title,
+.page-ting-object .expanded .expand-relations,
+.page-ting-object .expanded-properties,
+.pane-ting-object-ting-relations .ting-relation .expanded,
+.pane-node-comments .expanded-comment-arrow,
+.page-search-meta .pane-ding-facetbrowser .option,
+.page-ting-object .group-content .field-group-format-title {
+  background-image: url(../images/checkbox-sprite.png);
+}
+
 /* Text colors */
 .block-ding-user-frontend-ding-username h2 span,
 .block-ding-user-frontend-ding-username h2,
@@ -322,10 +336,7 @@ footer .block-menu li a:visited,
 footer .block-menu li a:hover,
 .block-system-user-menu ul li a:link,
 .block-system-user-menu ul li a:hover,
-.block-system-user-menu ul li a:visited {
-  color: #c35e2c;
-}
-
+.block-system-user-menu ul li a:visited,
 a:link,
 a:visited,
 a:hover,
@@ -385,14 +396,20 @@ a:hover,
 .node-type-ding-page .pane-node-author a,
 .pane-system-main-menu ul li.expanded ul li a,
 .pane-ding-library-ding-sidebar-menu ul li.expanded ul li a,
-.page-user-login .region-content-inner .form-submit {
-  color: #ff6c00;
+.page-user-login .region-content-inner .form-submit,
+.ding_nodelist-slider .legend span a,
+.pane-ting-object-voxb-tags form .form-submit {
+  color: #cc5f0a;
 }
 
 .ting-search-carousel .ting-search-results .subtitle,
 .ding_nodelist-slider .legend h2,
 .page-taxonomy-term .pane-taxonomy-term .pane-title {
   color: #201a03;
+}
+
+.pane-ting-object-voxb-tags form .form-text {
+  color: #000;
 }
 
 /* Border colors */
@@ -565,4 +582,12 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .block-search-form .form-radios {
   clear: both;
+}
+
+#block-menu-menu-secondary-menu .menu li.expanded ul {
+  display: none;
+}
+
+.logo-img {
+  margin: 0;
 }
