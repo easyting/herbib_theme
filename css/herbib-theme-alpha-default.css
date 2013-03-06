@@ -81,3 +81,12 @@
   height: auto;
   width: 100%;
 }
+
+.node-type-ding-event .content-event-month,
+.node-type-ding-event .content-event-day .pane-content {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+.node-type-ding-event .content-event-day .pane-content {
+  font-weight: bold;
+}
