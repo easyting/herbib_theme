@@ -909,6 +909,12 @@ footer .block-menu li a,
 .page-ting-collection .field-name-ting-series a,
 .page-ting-collection .field-name-ting-details-series-description a,
 .pane-search-result .ding-format-long .field-type-ting-series a,
-.pane-search-result .field-name-ting-details-series-description a {
+.pane-search-result .field-name-ting-details-series-description a,
+.pane-ding-item-list .item-loan,
+.pane-ding-item-list .item-loan .reservation-link-ajax a:link,
+.pane-ding-item-list .item-loan .reservation-link-ajax a:visited,
+.pane-ding-related-items .item-loan,
+.pane-ding-related-items .item-loan .reservation-link-ajax a:link,
+.pane-ding-related-items .item-loan .reservation-link-ajax a:visited {
   font-family: Verdana, Arial, sans-serif;
 }
