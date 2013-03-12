@@ -170,7 +170,10 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .pane-loans .renew-loan-button,
 .responsive-layout-mobile .pane-reservations .op-reservations .delete-reservations,
 .responsive-layout-mobile .pane-reservations .op-reservations .update-reservations,
-.pane-ting-object-voxb-tags .tag a:hover {
+.pane-ting-object-voxb-tags .tag a:hover,
+.pane-system-main-menu ul li.expanded a,
+.pane-ding-library-ding-sidebar-menu ul li.expanded a,
+.pane-menu-tree ul li.expanded a {
   background-color: #ff6c00;
 }
 
