@@ -18,3 +18,7 @@
 .region-user-second {
   padding-top: 200px;
 }
+
+input#edit-search-block-form--2.spinner {
+  background-position: 85% 5px;
+}

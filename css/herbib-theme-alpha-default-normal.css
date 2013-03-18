@@ -13,3 +13,7 @@
 .block-search-form .form-item-search-provider {
   width: 33% !important;
 }
+
+input#edit-search-block-form--2.spinner {
+  background-position: 79% 5px;
+}
