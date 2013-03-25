@@ -98,6 +98,17 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   background-color: #78746a;
 }
 
+.page-ting-object .field-type-ting-subjects .subject,
+.page-ting-collection .field-type-ting-subjects .subject,
+.pane-search-result .ding-format-long .field-type-ting-subjects .subject,
+.ui-dialog,
+.pane-ting-object-voxb-tags .tag a {
+  background-color: #79726a;
+}
+
+.node-type-ding-event .event-short-info .views-field-field-event-date,
+.node-type-ding-event .event-short-info .views-field-group-audience a,
+.node-type-ding-event .event-short-info .views-field-field-event-fee,
 .ding_nodelist-single .ding_nodelist-items .category a,
 .ding_nodelist-horizontal_accordion .ding_nodelist-items .item .label,
 .ding_nodelist-carousel .ding_nodelist-items .item .event-label,
@@ -105,19 +116,6 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .ding_nodelist-carousel .ding_nodelist-items .category a,
 .node-type-ding-news .news-short-info .views-field-field-editorial-base-n a,
 .node-type-ding-event .content-event-day .pane-title,
-.page-ting-object .field-type-ting-subjects .subject,
-.page-ting-collection .field-type-ting-subjects .subject,
-.pane-search-result .ding-format-long .field-type-ting-subjects .subject,
-.node-type-ding-event .event-short-info .views-field-field-event-date,
-.node-type-ding-event .event-short-info .views-field-group-audience a,
-.node-type-ding-event .event-short-info .views-field-field-event-fee,
-.ui-dialog,
-.pane-ding-item-list .pane-title,
-.pane-ding-related-items .pane-title,
-.pane-ting-object-voxb-tags .tag a {
-  background-color: #79726a;
-}
-
 .ting-search-carousel .search-controller li.active a,
 .ui-tabs-nav li.active,
 .pane-ding-facetbrowser .form-wrapper legend.active span,
@@ -173,7 +171,9 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .pane-ting-object-voxb-tags .tag a:hover,
 .pane-system-main-menu ul li.expanded a,
 .pane-ding-library-ding-sidebar-menu ul li.expanded a,
-.pane-menu-tree ul li.expanded a {
+.pane-menu-tree ul li.expanded a,
+.pane-ding-item-list .pane-title,
+.pane-ding-related-items .pane-title {
   background-color: #ff6c00;
 }
 
@@ -524,7 +524,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .user-menu-expand {
   right: 0;
-  top: 39px;
+  top: 60px;
 }
 
 .zone-menu-wrapper {
@@ -543,18 +543,18 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .responsive-layout-mobile .block-ding-user-frontend-ding-username {
   right: 0;
-  top: 74px;
+  top: 95px;
   z-index: 49;
 }
 
 .responsive-layout-mobile .block-system-user-menu.even {
   right: 0;
-  top: 105px;
+  top: 126px;
 }
 
 .responsive-layout-mobile .block-user-login {
   right: 0;
-  top: 74px;
+  top: 95px;
 }
 
 .responsive-layout-mobile .block-user-login .block-inner .content {
@@ -563,20 +563,16 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .responsive-layout-mobile .block-ding-user-frontend-ding-user-loan-number {
   right: 0;
-  top: 105px;
+  top: 126px;
 }
 
 .responsive-layout-mobile .block-system-user-menu {
   right: 0;
-  top: 187px;
+  top: 208px;
 }
 
 .pane-page-tabs ul.primary li {
   display: block;
-}
-
-.page-user-login .region-user-first {
-  margin-top: 200px;
 }
 
 .responsive-layout-mobile.page-user-login .region-user-first {
@@ -587,12 +583,33 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   clear: both;
 }
 
-#block-menu-menu-secondary-menu .menu li.expanded ul {
+#block-menu-menu-secondary-menu .menu li.expanded ul,
+#edit-basic-search {
   display: none;
 }
 
 .logo-img {
   margin: 0;
+}
+
+.block-search-form form .ui-autocomplete-input {
+  height: 50px;
+}
+
+.block-search-form form .form-actions input {
+  height: 50px;
+}
+
+.block-search-form form .extendsearch-advanced span.fieldset-legend {
+  top: 13px;
+}
+
+.search-clear-button {
+  top: 19px;
+}
+
+.block-search-form form .extendsearch-advanced .fieldset-wrapper {
+  top: 54px;
 }
 
 /* Verdana font */

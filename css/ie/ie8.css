@@ -1,3 +1,28 @@
 .block-search-form form .form-actions input {
   right: -98px;
 }
+
+.block-search-form {
+  height: 50px;
+}
+
+.zone-branding {
+  height: 270px;
+}
+
+.region-user-first {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+html.js fieldset.extendsearch-advanced.collapsed {
+  height: 0;
+}
+
+.block-search-form .form-item-search-block-form > .ui-autocomplete-input {
+  padding-top: 18px;
+}
+
+.page-user-login .region-user-first {
+  margin-top: 212px;
+}
