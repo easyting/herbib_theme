@@ -43,3 +43,29 @@
   position: relative;
   z-index: 60;
 }
+
+.region-user-first-inner {
+  margin-left: -10px;
+}
+
+.block-search-form form .form-item {
+  overflow: hidden;
+}
+
+.block-search-form form .form-actions input {
+  margin-top: 1px;
+}
+
+.zone-branding {
+  height: 270px;
+}
+
+.region-user-second {
+  margin-top: 66px;
+  padding-top: 0;
+}
+
+.block-search-form form .ui-autocomplete-input {
+  height: 40px;
+  padding-top: 10px;
+}
