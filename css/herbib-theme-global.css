@@ -45,15 +45,19 @@ span.ext {
 .block-ding-user-frontend-ding-user-loan-number,
 #block-menu-menu-secondary-menu,
 .ui-tabs-nav,
-.block-main-menu .content ul li.active > a {
+.block-main-menu .content ul li.active > a,
+.no-js .block-ding-user-frontend-ding-username .block-inner > .content,
+.no-js .block-search-form {
   background-color: #161107;
 }
 
-.block-search-form {
+.block-search-form,
+.no-js .block-search-form form .extendsearch-advanced .fieldset-wrapper {
   background-color: transparent;
 }
 
-.block-search-form form .ui-autocomplete-input {
+.block-search-form form .ui-autocomplete-input,
+.no-js .block-search-form form .form-item input[type="text"] {
   background-color: #fff;
 }
 
@@ -317,7 +321,9 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .responsive-layout-mobile #block-locale-language ul.language-switcher-locale-url li a,
 .pane-aggregator-feed .more-link a,
 .pane-ding-library-opening-hours-ding-library-opened-today .name a:link,
-.pane-ding-library-opening-hours-ding-library-opened-today .name a:visited {
+.pane-ding-library-opening-hours-ding-library-opened-today .name a:visited,
+.no-js .block-search-form form .extendsearch-advanced .fieldset-wrapper label,
+.no-js .block-search-form label.element-invisible {
   color: #fff;
 }
 
@@ -610,6 +616,47 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .block-search-form form .extendsearch-advanced .fieldset-wrapper {
   top: 54px;
+}
+
+.no-js .block-ding-user-frontend-ding-username .block-inner > .content,
+.no-js .block-ding-user-frontend-ding-user-loan-number,
+.no-js .block-system-user-menu,
+.no-js .block-ding-user-frontend-ding-user-loan-number,
+.no-js .block-system-user-menu.even {
+  top: 0;
+}
+
+.no-js .grid-4.region-branding,
+.no-js .region-user-second {
+  padding-top: 0;
+}
+
+.no-js .region-user-second {
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.no-js .block-search-form form .extendsearch-advanced .fieldset-wrapper {
+  width: 100%;
+}
+
+.no-js .block-search-form {
+  height: auto;
+  padding: 10px;
+}
+
+.no-js .block-user-login .block-inner .content {
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.no-js .block-user-login .block-inner.clearfix:after {
+  height: auto;
+}
+
+.no-js .block-user-login {
+  overflow: hidden;
 }
 
 /* Verdana font */
