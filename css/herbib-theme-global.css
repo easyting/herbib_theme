@@ -620,13 +620,20 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .no-js .block-ding-user-frontend-ding-username .block-inner > .content,
 .no-js .block-ding-user-frontend-ding-user-loan-number,
-.no-js .block-system-user-menu {
+.no-js .block-system-user-menu,
+.no-js .block-ding-user-frontend-ding-user-loan-number,
+.no-js .block-system-user-menu.even {
   top: 0;
 }
 
 .no-js .grid-4.region-branding,
 .no-js .region-user-second {
   padding-top: 0;
+}
+
+.no-js .region-user-second {
+  clear: both;
+  margin-bottom: 10px;
 }
 
 .no-js .block-search-form form .extendsearch-advanced .fieldset-wrapper {
@@ -636,6 +643,20 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .no-js .block-search-form {
   height: auto;
   padding: 10px;
+}
+
+.no-js .block-user-login .block-inner .content {
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.no-js .block-user-login .block-inner.clearfix:after {
+  height: auto;
+}
+
+.no-js .block-user-login {
+  overflow: hidden;
 }
 
 /* Verdana font */
