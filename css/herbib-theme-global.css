@@ -356,7 +356,9 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .breadcrumb a:hover,
 .block-main-menu .content ul li ul.menu li a,
 .block-main-menu .content ul li ul.menu li a:hover,
-.ui-widget .form-submit {
+.ui-widget .form-submit,
+.page-taxonomy-term .pane-taxonomy-term .term-title,
+.ding_nodelist-taxonomy h2.ding_nodelist-title {
   color: #161107;
 }
 
