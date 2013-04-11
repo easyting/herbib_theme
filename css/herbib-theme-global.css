@@ -105,11 +105,11 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 }
 
 .block-main-menu .content > ul li:first-child + li + li {
-  background-color: #c3bf2c;
+  background-color: #85a0c3;
 }
 
 .block-main-menu .content > ul li:first-child + li + li + li {
-  background-color: #85a0c3;
+  background-color: #c3bf2c;
 }
 
 .block-main-menu .content > ul li ul li {
