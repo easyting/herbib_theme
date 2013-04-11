@@ -13,3 +13,11 @@
 .block-search-form .form-item-search-provider {
   width: 33% !important;
 }
+
+input#edit-search-block-form--2.spinner {
+  background-position: 79% 5px;
+}
+
+.page-user-login .region-user-first {
+  margin-top: 212px;
+}

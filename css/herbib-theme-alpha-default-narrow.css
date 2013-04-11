@@ -13,3 +13,7 @@
 .block-search-form .form-item-search-provider {
   width: 45% !important;
 }
+
+.page-user-login .region-user-first {
+  margin-top: 156px;
+}
