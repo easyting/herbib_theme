@@ -27,14 +27,6 @@ h2 {
   font-size: 14px;
 }
 
-a:focus,
-button:focus,
-textarea:focus,
-select:focus,
-input:focus {
-  outline: 1px dashed #161107;
-}
-
 .pane-ding-library-opening-hours-ding-library-opened-today a:focus,
 .pane-ding-item-viewer-item-viewer a:focus,
 .block-menu-secondary-menu a:focus,
@@ -214,8 +206,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .page-ting-object .pane-ting-ting-relation-anchors .item-list a,
 .page-ting-collection .pane-ting-ting-collection-types .item-list a,
 .page-ting-collection .pane-ting-ting-relation-anchors .item-list a,
-.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings h2,
-.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings table,
+.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings .holdings,
 .page-search-meta .search-results-tabs,
 .page-search-node .search-results-tabs,
 .block-main-menu .main-menu-expand,
@@ -430,7 +421,8 @@ a:hover,
 .pane-ding-library-ding-sidebar-menu ul li.expanded ul li a,
 .page-user-login .region-content-inner .form-submit,
 .ding_nodelist-slider .legend span a,
-.pane-ting-object-voxb-tags form .form-submit {
+.pane-ting-object-voxb-tags form .form-submit,
+.pane-ting-object-ting-reference-reverse .node-title a {
   color: #cc5f0a;
 }
 
