@@ -90,3 +90,11 @@
 .node-type-ding-event .content-event-day .pane-content {
   font-weight: bold;
 }
+
+.block-main-menu .content ul li ul {
+  top: 27px;
+}
+
+.block-main-menu .content > .expanded-menu {
+  height: 56px;
+}
