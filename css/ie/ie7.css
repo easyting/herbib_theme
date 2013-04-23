@@ -69,3 +69,11 @@
   height: 40px;
   padding-top: 10px;
 }
+
+.block-main-menu .content ul li.active > a {
+  width: 141px;
+}
+
+.block-main-menu .content > ul > li > a {
+  font-size: 11px;
+}
