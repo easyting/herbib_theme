@@ -190,7 +190,8 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .pane-ding-library-ding-sidebar-menu ul li.expanded a,
 .pane-menu-tree ul li.expanded a,
 .pane-ding-item-list .pane-title,
-.pane-ding-related-items .pane-title {
+.pane-ding-related-items .pane-title,
+.responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit {
   background-color: #ff6c00;
 }
 
@@ -422,7 +423,8 @@ a:hover,
 .page-user-login .region-content-inner .form-submit,
 .ding_nodelist-slider .legend span a,
 .pane-ting-object-voxb-tags form .form-submit,
-.pane-ting-object-ting-reference-reverse .node-title a {
+.pane-ting-object-ting-reference-reverse .node-title a,
+.pane-emailkanon-emailkanon-subscribe-block .form-submit {
   color: #cc5f0a;
 }
 
