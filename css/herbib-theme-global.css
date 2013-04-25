@@ -64,7 +64,8 @@ footer .block-menu li {
 }
 
 .block-search-form form .ui-autocomplete-input,
-.no-js .block-search-form form .form-item input[type="text"] {
+.no-js .block-search-form form .form-item input[type="text"],
+.block-search-form form input[name="search_block_form"] {
   background-color: #fff;
 }
 
@@ -447,6 +448,8 @@ a:hover,
 ul.ui-autocomplete,
 .block-search-form form .extendsearch-advanced input[type="text"]:active,
 .block-search-form form .extendsearch-advanced input[type="text"]:focus,
+.block-search-form form input[name="search_block_form"]:active,
+.block-search-form form input[name="search_block_form"]:focus,
 ul.ui-autocomplete li.ui-menu-item:hover {
   border-color: #ccc;
 }
@@ -629,7 +632,8 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   margin: 0;
 }
 
-.block-search-form form .ui-autocomplete-input {
+.block-search-form form .ui-autocomplete-input,
+.block-search-form form input[name="search_block_form"] {
   height: 50px;
 }
 
@@ -702,6 +706,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 /* Verdana font */
 
 .block-search-form form .extendsearch-advanced input[type="text"],
+.block-search-form form input[name="search_block_form"],
 .block-ding-user-frontend-ding-username h2 span,
 .block-system-user-menu a,
 .page-search-ting .pane-ting-search-records-per-page a,
@@ -764,6 +769,7 @@ ul.ui-autocomplete li a.ui-corner-all,
 .block-ding-user-frontend-ding-username h2 span,
 .block-ding-user-frontend-ding-username h2,
 .block-search-form form .extendsearch-advanced input[type="text"],
+.block-search-form form input[name="search_block_form"],
 .block-system-user-menu a,
 .block-menu-menu-secondary-menu .menu li a,
 .block-locale-language ul.language-switcher-locale-url li a,
