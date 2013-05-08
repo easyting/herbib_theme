@@ -38,8 +38,7 @@ h2 {
 #block-locale-language,
 span.ext,
 .ding_nodelist-carousel .ding_nodelist-items .item .event-label,
-.ding_nodelist-single .ding_nodelist-items .item .event-label,
-footer .block-menu li {
+.ding_nodelist-single .ding_nodelist-items .item .event-label {
   display: none;
 }
 
