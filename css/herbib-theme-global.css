@@ -205,26 +205,22 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 }
 
 .block-main-menu .content > ul li:first-child,
-.page-taxonomy-term-21 .pane-ding-library-ding-sidebar-menu ul li a,
-.menu-item-1 .pane-ding-library-ding-sidebar-menu ul li a {
+.pane-ding-library-ding-sidebar-menu.main-menu-600 ul li a {
   background-color: #a94598;
 }
 
 .block-main-menu .content > ul li:first-child + li,
-.page-taxonomy-term-27 .pane-ding-library-ding-sidebar-menu ul li a,
-.menu-item-2 .pane-ding-library-ding-sidebar-menu ul li a {
+.pane-ding-library-ding-sidebar-menu.main-menu-606 ul li a {
   background-color: #178498;
 }
 
 .block-main-menu .content > ul li:first-child + li + li,
-.page-node-20 .pane-ding-library-ding-sidebar-menu ul li a,
-.menu-item-3 .pane-ding-library-ding-sidebar-menu ul li a {
+.pane-ding-library-ding-sidebar-menu.main-menu-652 ul li a {
   background-color: #85a0c3;
 }
 
 .block-main-menu .content > ul li:first-child + li + li + li,
-.page-taxonomy-term-33 .pane-ding-library-ding-sidebar-menu ul li a,
-.menu-item-4 .pane-ding-library-ding-sidebar-menu ul li a {
+.pane-ding-library-ding-sidebar-menu.main-menu-612 ul li a {
   background-color: #c3bf2c;
 }
 
