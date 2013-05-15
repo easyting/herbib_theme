@@ -9,7 +9,7 @@ body,
 
 body {
   font-family: Verdana, Arial, sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 15px;
 }
 
@@ -27,23 +27,6 @@ h2 {
   font-size: 14px;
 }
 
-a:focus,
-button:focus,
-textarea:focus,
-select:focus,
-input:focus {
-  outline: 1px dashed #161107;
-}
-
-.pane-ding-library-opening-hours-ding-library-opened-today a:focus,
-.pane-ding-item-viewer-item-viewer a:focus,
-.block-menu-secondary-menu a:focus,
-.block-main-menu a:focus,
-.logo-img a:focus,
-.pane-ding-toggle-format-toggle a:focus {
-  outline: 1px dashed #fff;
-}
-
 .logo-img a {
   display: block;
 }
@@ -53,7 +36,9 @@ input:focus {
 }
 
 #block-locale-language,
-span.ext {
+span.ext,
+.ding_nodelist-carousel .ding_nodelist-items .item .event-label,
+.ding_nodelist-single .ding_nodelist-items .item .event-label {
   display: none;
 }
 
@@ -66,19 +51,20 @@ span.ext {
 .block-ding-user-frontend-ding-user-loan-number,
 #block-menu-menu-secondary-menu,
 .ui-tabs-nav,
-.block-main-menu .content ul li.active > a,
 .no-js .block-ding-user-frontend-ding-username .block-inner > .content,
 .no-js .block-search-form {
   background-color: #161107;
 }
 
 .block-search-form,
-.no-js .block-search-form form .extendsearch-advanced .fieldset-wrapper {
+.no-js .block-search-form form .extendsearch-advanced .fieldset-wrapper,
+.block-main-menu .content {
   background-color: transparent;
 }
 
 .block-search-form form .ui-autocomplete-input,
-.no-js .block-search-form form .form-item input[type="text"] {
+.no-js .block-search-form form .form-item input[type="text"],
+.block-search-form form input[name="search_block_form"] {
   background-color: #fff;
 }
 
@@ -94,22 +80,6 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .block-search-form form .extendsearch-advanced input[type="text"]:active,
 .block-search-form form .extendsearch-advanced input[type="text"]:focus {
   background-color: #c0c0c0;
-}
-
-.block-main-menu .content > ul li:first-child {
-  background-color: #a94598;
-}
-
-.block-main-menu .content > ul li:first-child + li {
-  background-color: #178498;
-}
-
-.block-main-menu .content > ul li:first-child + li + li {
-  background-color: #85a0c3;
-}
-
-.block-main-menu .content > ul li:first-child + li + li + li {
-  background-color: #c3bf2c;
 }
 
 .block-main-menu .content > ul li ul li {
@@ -198,13 +168,13 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .pane-ding-library-ding-sidebar-menu ul li.expanded a,
 .pane-menu-tree ul li.expanded a,
 .pane-ding-item-list .pane-title,
-.pane-ding-related-items .pane-title {
+.pane-ding-related-items .pane-title,
+.responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit {
   background-color: #ff6c00;
 }
 
 .pane-system-main-menu ul li a,
 .pane-category-menu ul li a,
-.pane-ding-library-ding-sidebar-menu ul li a,
 .pane-ding-library-opening-hours-ding-library-opened-today,
 .pane-ding-library-opening-hours-ding-library-opening-hours,
 .pane-opening-hours-week,
@@ -214,8 +184,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .page-ting-object .pane-ting-ting-relation-anchors .item-list a,
 .page-ting-collection .pane-ting-ting-collection-types .item-list a,
 .page-ting-collection .pane-ting-ting-relation-anchors .item-list a,
-.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings h2,
-.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings table,
+.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings .holdings,
 .page-search-meta .search-results-tabs,
 .page-search-node .search-results-tabs,
 .block-main-menu .main-menu-expand,
@@ -230,8 +199,29 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .pane-aggregator-feed,
 .pane-page-tabs ul.primary a,
 .pane-parent-vocabulary-terms .views-row a,
-.pane-parent-vocabulary-terms .views-row .active {
+.pane-parent-vocabulary-terms .views-row .active,
+.pane-ding-library-ding-sidebar-menu .pane-content ul li a {
   background-color: #151106;
+}
+
+.block-main-menu .content > ul li:first-child,
+.pane-ding-library-ding-sidebar-menu.main-menu-600 ul li a {
+  background-color: #a94598;
+}
+
+.block-main-menu .content > ul li:first-child + li,
+.pane-ding-library-ding-sidebar-menu.main-menu-606 ul li a {
+  background-color: #178498;
+}
+
+.block-main-menu .content > ul li:first-child + li + li,
+.pane-ding-library-ding-sidebar-menu.main-menu-652 ul li a {
+  background-color: #85a0c3;
+}
+
+.block-main-menu .content > ul li:first-child + li + li + li,
+.pane-ding-library-ding-sidebar-menu.main-menu-612 ul li a {
+  background-color: #c3bf2c;
 }
 
 /* BG images */
@@ -430,7 +420,9 @@ a:hover,
 .pane-ding-library-ding-sidebar-menu ul li.expanded ul li a,
 .page-user-login .region-content-inner .form-submit,
 .ding_nodelist-slider .legend span a,
-.pane-ting-object-voxb-tags form .form-submit {
+.pane-ting-object-voxb-tags form .form-submit,
+.pane-ting-object-ting-reference-reverse .node-title a,
+.pane-emailkanon-emailkanon-subscribe-block .form-submit {
   color: #cc5f0a;
 }
 
@@ -451,6 +443,8 @@ a:hover,
 ul.ui-autocomplete,
 .block-search-form form .extendsearch-advanced input[type="text"]:active,
 .block-search-form form .extendsearch-advanced input[type="text"]:focus,
+.block-search-form form input[name="search_block_form"]:active,
+.block-search-form form input[name="search_block_form"]:focus,
 ul.ui-autocomplete li.ui-menu-item:hover {
   border-color: #ccc;
 }
@@ -474,6 +468,10 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .edit-user-profile .form-submit {
   border: none;
+}
+
+.pane-ding-library-ding-sidebar-menu .pane-content > ul > li > a {
+  border-bottom: 2px solid #161107;
 }
 
 /* Font styles */
@@ -500,6 +498,14 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 }
 
 /* Padding and margins */
+.block-main-menu .content ul li.active .menu-arrow {
+  background-position: 12px 0;
+  border-top: 2px solid #151106;
+  left: 0;
+  top: 25px;
+  width: 100%;
+}
+
 .block-ding-user-frontend-ding-username h2,
 .block-user-login .block-title {
   height: 31px;
@@ -621,7 +627,8 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   margin: 0;
 }
 
-.block-search-form form .ui-autocomplete-input {
+.block-search-form form .ui-autocomplete-input,
+.block-search-form form input[name="search_block_form"] {
   height: 50px;
 }
 
@@ -682,9 +689,19 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   overflow: hidden;
 }
 
+.block-main-menu .content > ul > li {
+  padding: 0;
+}
+
+.ding_nodelist-carousel .ding_nodelist-items .item .event-date,
+.ding_nodelist-single .ding_nodelist-items .item .event-date {
+  top: 10px;
+}
+
 /* Verdana font */
 
 .block-search-form form .extendsearch-advanced input[type="text"],
+.block-search-form form input[name="search_block_form"],
 .block-ding-user-frontend-ding-username h2 span,
 .block-system-user-menu a,
 .page-search-ting .pane-ting-search-records-per-page a,
@@ -734,7 +751,11 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .browsebar-inner .browsebar-item .author,
 #block-menu-menu-secondary-menu .menu li a,
 #block-locale-language ul.language-switcher-locale-url li a,
-.block-main-menu .content > ul > li > a {
+.block-main-menu .content > ul > li > a,
+.page-taxonomy-term .pane-term-description .pane-title,
+.node-type-ding-page .side-title,
+.node-type-ding-news .news-short-info .news-title,
+.node-type-ding-event .event-short-info .event-title {
   font-weight: bold;
 }
 
@@ -743,6 +764,7 @@ ul.ui-autocomplete li a.ui-corner-all,
 .block-ding-user-frontend-ding-username h2 span,
 .block-ding-user-frontend-ding-username h2,
 .block-search-form form .extendsearch-advanced input[type="text"],
+.block-search-form form input[name="search_block_form"],
 .block-system-user-menu a,
 .block-menu-menu-secondary-menu .menu li a,
 .block-locale-language ul.language-switcher-locale-url li a,
@@ -1005,6 +1027,17 @@ footer .block-menu li a,
 .pane-ding-item-list .item-loan .reservation-link-ajax a:visited,
 .pane-ding-related-items .item-loan,
 .pane-ding-related-items .item-loan .reservation-link-ajax a:link,
-.pane-ding-related-items .item-loan .reservation-link-ajax a:visited {
+.pane-ding-related-items .item-loan .reservation-link-ajax a:visited,
+.page-taxonomy-term .pane-term-description .pane-title,
+.node-type-ding-page .side-title,
+.page-ting-collection .field-type-ting-title h1,
+.node-type-ding-news .news-short-info .news-title,
+.node-type-ding-event .event-short-info .event-title,
+.pane-category-menu .pane-title {
   font-family: Verdana, Arial, sans-serif;
+}
+
+.page-node .node,
+.pane-term-description .pane-content {
+  font-size: 12px;
 }

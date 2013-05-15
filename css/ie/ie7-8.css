@@ -1,3 +1,7 @@
 .block-search-form {
   height: 60px;
 }
+
+.block-main-menu .content > ul > li {
+  min-width: 153px;
+}
