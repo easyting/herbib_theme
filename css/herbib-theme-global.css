@@ -38,8 +38,7 @@ h2 {
 #block-locale-language,
 span.ext,
 .ding_nodelist-carousel .ding_nodelist-items .item .event-label,
-.ding_nodelist-single .ding_nodelist-items .item .event-label,
-footer .block-menu li {
+.ding_nodelist-single .ding_nodelist-items .item .event-label {
   display: none;
 }
 
@@ -64,7 +63,8 @@ footer .block-menu li {
 }
 
 .block-search-form form .ui-autocomplete-input,
-.no-js .block-search-form form .form-item input[type="text"] {
+.no-js .block-search-form form .form-item input[type="text"],
+.block-search-form form input[name="search_block_form"] {
   background-color: #fff;
 }
 
@@ -168,7 +168,8 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .pane-ding-library-ding-sidebar-menu ul li.expanded a,
 .pane-menu-tree ul li.expanded a,
 .pane-ding-item-list .pane-title,
-.pane-ding-related-items .pane-title {
+.pane-ding-related-items .pane-title,
+.responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit {
   background-color: #ff6c00;
 }
 
@@ -424,7 +425,8 @@ a:hover,
 .page-user-login .region-content-inner .form-submit,
 .ding_nodelist-slider .legend span a,
 .pane-ting-object-voxb-tags form .form-submit,
-.pane-ting-object-ting-reference-reverse .node-title a {
+.pane-ting-object-ting-reference-reverse .node-title a,
+.pane-emailkanon-emailkanon-subscribe-block .form-submit {
   color: #cc5f0a;
 }
 
@@ -445,6 +447,8 @@ a:hover,
 ul.ui-autocomplete,
 .block-search-form form .extendsearch-advanced input[type="text"]:active,
 .block-search-form form .extendsearch-advanced input[type="text"]:focus,
+.block-search-form form input[name="search_block_form"]:active,
+.block-search-form form input[name="search_block_form"]:focus,
 ul.ui-autocomplete li.ui-menu-item:hover {
   border-color: #ccc;
 }
@@ -627,7 +631,8 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   margin: 0;
 }
 
-.block-search-form form .ui-autocomplete-input {
+.block-search-form form .ui-autocomplete-input,
+.block-search-form form input[name="search_block_form"] {
   height: 50px;
 }
 
@@ -700,6 +705,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 /* Verdana font */
 
 .block-search-form form .extendsearch-advanced input[type="text"],
+.block-search-form form input[name="search_block_form"],
 .block-ding-user-frontend-ding-username h2 span,
 .block-system-user-menu a,
 .page-search-ting .pane-ting-search-records-per-page a,
@@ -762,6 +768,7 @@ ul.ui-autocomplete li a.ui-corner-all,
 .block-ding-user-frontend-ding-username h2 span,
 .block-ding-user-frontend-ding-username h2,
 .block-search-form form .extendsearch-advanced input[type="text"],
+.block-search-form form input[name="search_block_form"],
 .block-system-user-menu a,
 .block-menu-menu-secondary-menu .menu li a,
 .block-locale-language ul.language-switcher-locale-url li a,
