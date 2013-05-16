@@ -702,6 +702,10 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   top: 10px;
 }
 
+.page-ting-object .block-menu-secondary-menu .collapsed {
+  height: auto;
+}
+
 /* Verdana font */
 
 .block-search-form form .extendsearch-advanced input[type="text"],
