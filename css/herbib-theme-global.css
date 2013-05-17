@@ -204,27 +204,27 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   background-color: #151106;
 }
 
-.block-main-menu .content > ul li:first-child,
+.block-main-menu .content > ul > li:first-child,
 .pane-ding-library-ding-sidebar-menu.main-menu-600 ul li a,
-.block-main-menu .content > ul li:first-child.active > a {
+.block-main-menu .content > ul > li:first-child.active > a {
   background-color: #a94598;
 }
 
-.block-main-menu .content > ul li:first-child + li,
+.block-main-menu .content > ul > li:first-child + li,
 .pane-ding-library-ding-sidebar-menu.main-menu-606 ul li a,
-.block-main-menu .content  > ul li:first-child + li.active > a {
+.block-main-menu .content  > ul > li:first-child + li.active > a {
   background-color: #178498;
 }
 
-.block-main-menu .content > ul li:first-child + li + li,
+.block-main-menu .content > ul > li:first-child + li + li,
 .pane-ding-library-ding-sidebar-menu.main-menu-652 ul li a,
-.block-main-menu .content  > ul li:first-child + li + li.active > a {
+.block-main-menu .content  > ul > li:first-child + li + li.active > a {
   background-color: #85a0c3;
 }
 
-.block-main-menu .content > ul li:first-child + li + li + li,
+.block-main-menu .content > ul > li:first-child + li + li + li,
 .pane-ding-library-ding-sidebar-menu.main-menu-612 ul li a,
-.block-main-menu .content  > ul li:first-child + li + li + li.active > a {
+.block-main-menu .content  > ul > li:first-child + li + li + li.active > a {
   background-color: #c3bf2c;
 }
 
