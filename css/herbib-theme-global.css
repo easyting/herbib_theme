@@ -205,22 +205,26 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 }
 
 .block-main-menu .content > ul li:first-child,
-.pane-ding-library-ding-sidebar-menu.main-menu-600 ul li a {
+.pane-ding-library-ding-sidebar-menu.main-menu-600 ul li a,
+.block-main-menu .content > ul li:first-child.active > a {
   background-color: #a94598;
 }
 
 .block-main-menu .content > ul li:first-child + li,
-.pane-ding-library-ding-sidebar-menu.main-menu-606 ul li a {
+.pane-ding-library-ding-sidebar-menu.main-menu-606 ul li a,
+.block-main-menu .content  > ul li:first-child + li.active > a {
   background-color: #178498;
 }
 
 .block-main-menu .content > ul li:first-child + li + li,
-.pane-ding-library-ding-sidebar-menu.main-menu-652 ul li a {
+.pane-ding-library-ding-sidebar-menu.main-menu-652 ul li a,
+.block-main-menu .content  > ul li:first-child + li + li.active > a {
   background-color: #85a0c3;
 }
 
 .block-main-menu .content > ul li:first-child + li + li + li,
-.pane-ding-library-ding-sidebar-menu.main-menu-612 ul li a {
+.pane-ding-library-ding-sidebar-menu.main-menu-612 ul li a,
+.block-main-menu .content  > ul li:first-child + li + li + li.active > a {
   background-color: #c3bf2c;
 }
 
@@ -696,6 +700,10 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .ding_nodelist-carousel .ding_nodelist-items .item .event-date,
 .ding_nodelist-single .ding_nodelist-items .item .event-date {
   top: 10px;
+}
+
+.page-ting-object .block-menu-secondary-menu .collapsed {
+  height: auto;
 }
 
 /* Verdana font */
