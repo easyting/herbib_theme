@@ -474,7 +474,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   border: none;
 }
 
-.pane-ding-library-ding-sidebar-menu .pane-content > ul > li > a {
+.pane-ding-library-ding-sidebar-menu .pane-content > ul > li > a.active {
   border-bottom: 2px solid #161107;
 }
 
