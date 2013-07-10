@@ -98,3 +98,15 @@
 .block-main-menu .content > .expanded-menu {
   height: 56px;
 }
+
+#region-user-second {
+  bottom: 60px;
+  position: absolute;
+  right: 0;
+}
+
+#region-user-first {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+}

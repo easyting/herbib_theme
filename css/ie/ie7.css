@@ -77,3 +77,7 @@
 .block-main-menu .content > ul > li > a {
   font-size: 11px;
 }
+
+#region-user-first {
+  bottom: -10px;
+}

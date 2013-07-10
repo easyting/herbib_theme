@@ -1,8 +1,8 @@
 body,
 .edit-user-profile input,
 #edit-account .form-text,
-.page-user-login .region-content-inner input[type="text"],
-.page-user-login .region-content-inner input[type="password"],
+.page-user #user-login input[type="text"],
+.page-user #user-login input[type="password"],
 .pane-ting-object-voxb-tags form .form-text {
   background-color: #a39e8f;
 }
@@ -64,7 +64,8 @@ span.ext,
 
 .block-search-form form .ui-autocomplete-input,
 .no-js .block-search-form form .form-item input[type="text"],
-.block-search-form form input[name="search_block_form"] {
+.block-search-form form input[name="search_block_form"],
+.region-content-inner {
   background-color: #fff;
 }
 
@@ -705,6 +706,10 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   height: auto;
 }
 
+.region-content-inner {
+  padding: 10px;
+}
+
 /* Verdana font */
 
 .block-search-form form .extendsearch-advanced input[type="text"],
@@ -974,10 +979,10 @@ footer .block-menu li a,
 .page-ting-collection .field-name-ting-abstract,
 .page-ting-object .field-name-ting-abstract,
 .field-type-ting-abstract,
-.page-user-login .region-content-inner,
-.page-user-login .region-content-inner .form-submit,
-.page-user-login .region-content-inner input[type="text"],
-.page-user-login .region-content-inner input[type="password"],
+.page-user #user-login,
+.page-user #user-login .form-submit,
+.page-user #user-login input[type="text"],
+.page-user #user-login input[type="password"],
 .pane-ting-object-voxb-tags form .form-submit,
 .pane-ting-object-voxb-tags form .form-text,
 .node-type-ding-event .content-event-month,
@@ -1047,4 +1052,37 @@ footer .block-menu li a,
 .page-node .node,
 .pane-term-description .pane-content {
   font-size: 12px;
+}
+
+.page-user #user-login input[type="password"] {
+  background-color: #a39e8f;
+  border: none;
+  clear: none;
+  color: #000;
+  font: 12px Verdana, Arial, sans-serif;
+  height: 30px;
+  margin: 0;
+  padding: 0 5px;
+  width: 60%;
+}
+
+.page-user #user-login .form-submit {
+  background: none;
+  border: none;
+  border-radius: 0;
+  color: #cc5f0a;
+  font: 18px Verdana, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-shadow: none;
+}
+
+.page-user #user-login label {
+  color: #000;
+  display: block;
+  font-weight: normal;
+  height: 30px;
+  margin: 0;
+  padding: 0 20px 0 0;
+  text-align: left;
 }
