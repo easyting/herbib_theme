@@ -523,6 +523,12 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .block-search-form > .block-inner {
   padding-right: 98px;
+  padding-top: 2px;
+}
+
+.block-search-form form input[type="text"],
+.block-search-form form .form-actions input[type="submit"] {
+  height: 46px;
 }
 
 .block-search-form form .form-actions input {
