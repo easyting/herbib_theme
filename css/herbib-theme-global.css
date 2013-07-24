@@ -712,7 +712,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   height: auto;
 }
 
-.region-content-inner {
+.block-system-main #user-login {
   padding: 10px;
 }
 
@@ -1053,6 +1053,10 @@ footer .block-menu li a,
 .node-type-ding-event .event-short-info .event-title,
 .pane-category-menu .pane-title {
   font-family: Verdana, Arial, sans-serif;
+}
+
+.form-item-search-block-form.spinner-wrapper:after {
+  top: 16px;
 }
 
 .page-node .node,
