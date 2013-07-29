@@ -637,8 +637,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   margin: 0;
 }
 
-.block-search-form form .ui-autocomplete-input,
-.block-search-form form input[name="search_block_form"] {
+.block-search-form form .ui-autocomplete-input {
   height: 50px;
 }
 
