@@ -523,12 +523,15 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .block-search-form > .block-inner {
   padding-right: 98px;
-  padding-top: 2px;
+}
+
+#search-block-form {
+  vertical-align: baseline;
 }
 
 .block-search-form form input[type="text"],
 .block-search-form form .form-actions input[type="submit"] {
-  height: 46px;
+  height: 47px;
 }
 
 .block-search-form form .form-actions input {
@@ -538,6 +541,10 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   right: -98px;
   top: 0;
   width: 94px;
+}
+
+.region-branding {
+  bottom: 0;
 }
 
 .block-search-form form .extendsearch-advanced .fieldset-wrapper {
@@ -559,7 +566,6 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 #block-menu-menu-secondary-menu {
   float: inherit;
-  padding: 6px;
 }
 
 .secondary-menu-expand {
@@ -654,7 +660,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 }
 
 .block-search-form form .extendsearch-advanced .fieldset-wrapper {
-  top: 54px;
+  top: 50px;
 }
 
 .no-js .block-ding-user-frontend-ding-username .block-inner > .content,
@@ -1094,4 +1100,23 @@ footer .block-menu li a,
   margin: 0;
   padding: 0 20px 0 0;
   text-align: left;
+}
+
+.block-main-menu .content > ul > li {
+  height: 29px;
+}
+
+.block-main-menu .content > ul > li a {
+  line-height: 29px;
+  padding: 0 10px;
+}
+
+#region-header-second ul li {
+  margin: 0;
+  padding: 0;
+}
+
+#region-header-second ul li a {
+  padding: 0 10px;
+  line-height: 29px;
 }

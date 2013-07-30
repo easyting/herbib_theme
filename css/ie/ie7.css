@@ -34,9 +34,25 @@
   z-index: 50;
 }
 
+.zone-wrapper .region-user-second {
+  width: 310px;
+}
+
 .zone-menu-wrapper {
   position: relative;
   z-index: 48;
+}
+
+#region-branding {
+  padding-top: 36px;
+}
+
+#edit-actions input[type="submit"] {
+  padding-left: 10px;
+}
+
+.block-search-form form .extendsearch-advanced .fieldset-wrapper {
+  width: 284px;
 }
 
 .zone-branding-wrapper {
