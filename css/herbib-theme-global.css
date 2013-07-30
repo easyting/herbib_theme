@@ -566,7 +566,6 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 #block-menu-menu-secondary-menu {
   float: inherit;
-  padding: 6px;
 }
 
 .secondary-menu-expand {
@@ -1101,4 +1100,23 @@ footer .block-menu li a,
   margin: 0;
   padding: 0 20px 0 0;
   text-align: left;
+}
+
+.block-main-menu .content > ul > li {
+  height: 29px;
+}
+
+.block-main-menu .content > ul > li a {
+  line-height: 29px;
+  padding: 0 10px;
+}
+
+#region-header-second ul li {
+  margin: 0;
+  padding: 0;
+}
+
+#region-header-second ul li a {
+  padding: 0 10px;
+  line-height: 29px;
 }
