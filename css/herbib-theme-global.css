@@ -65,7 +65,7 @@ span.ext,
 .block-search-form form .ui-autocomplete-input,
 .no-js .block-search-form form .form-item input[type="text"],
 .block-search-form form input[name="search_block_form"],
-.page-user .region-content-inner {
+.not-logged-in.page-user .region-content-inner {
   background-color: #fff;
 }
 
