@@ -1120,3 +1120,9 @@ footer .block-menu li a,
   padding: 0 10px;
   line-height: 29px;
 }
+
+.ui-dialog .field-name-ting-author a,
+.ui-dialog .field-name-ting-author a:link,
+.ui-dialog .reservation-link-ajax a {
+  color: #222;
+}
