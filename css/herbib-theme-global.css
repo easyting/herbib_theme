@@ -1126,3 +1126,8 @@ footer .block-menu li a,
 .ui-dialog .reservation-link-ajax a {
   color: #222;
 }
+
+.responsive-layout-mobile .ding_nodelist-slider .next,
+.responsive-layout-mobile .ding_nodelist-slider .prev {
+  background-image: url(../images/vert-slider-sprite-mobile.png);
+}
