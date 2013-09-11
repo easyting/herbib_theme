@@ -96,13 +96,13 @@
 }
 
 #region-user-second {
-  bottom: 60px;
+  bottom: 70px;
   position: absolute;
   right: 0;
 }
 
 #region-user-first {
-  bottom: 0;
+  bottom: 10px;
   position: absolute;
   right: 0;
 }

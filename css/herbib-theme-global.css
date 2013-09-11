@@ -582,6 +582,10 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   margin-right: 98px;
 }
 
+.responsive-layout-mobile .zone-menu-wrapper {
+  margin-top: 14px;
+}
+
 .responsive-layout-mobile .block-search-form,
 .responsive-layout-mobile .region-user-first {
   z-index: 55;
