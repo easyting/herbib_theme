@@ -102,7 +102,8 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   background-color: #79726a;
 }
 
-.node-type-ding-event .event-short-info .views-field-field-event-date,
+.node-type-ding-event .event-short-info .views-field-field-event-date
+.field-content, .node-type-ding-event .event-short-info .views-field-field-event-fee,
 .node-type-ding-event .event-short-info .views-field-group-audience a,
 .node-type-ding-event .event-short-info .views-field-field-event-fee,
 .ding_nodelist-single .ding_nodelist-items .category a,
@@ -141,7 +142,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .page-taxonomy-term.responsive-layout-mobile .view-taxonomy-term .item-list .pager-current,
 .responsive-layout-mobile .search-results-tabs ul.primary li a,
 .responsive-layout-mobile .search-results-tabs ul.primary li a:hover,
-.page-search-ting.responsive-layout-mobile .pane-ting-search-records-per-page a,
+.page-search-ting.responsive-layout-mobile .pane-ting-search-records-per-page .pane-content a,
 .responsive-layout-mobile .secondary-tabs ul.secondary li a,
 .responsive-layout-mobile .pane-loans .operations .renew-loan-button input,
 .responsive-layout-mobile .edit-user-profile .form-submit,
@@ -852,8 +853,8 @@ footer .block-menu .block-title,
 .pane-system-main-menu ul li a,
 .pane-category-menu ul li a,
 .pane-ding-library-ding-sidebar-menu ul li a,
+.node-type-ding-event .event-short-info .views-field-field-event-date .field-content,
 .node-type-ding-event .event-short-info .views-field-field-category a,
-.node-type-ding-event .event-short-info .views-field-field-event-date,
 .node-type-ding-event .event-short-info .views-field-field-event-fee,
 .node-type-ding-event .content-event-day .pane-title,
 .pane-node-comments .add-comment-button,
