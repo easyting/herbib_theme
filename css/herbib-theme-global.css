@@ -8,23 +8,11 @@ body,
 }
 
 body {
-  font-family: Verdana, Arial, sans-serif;
   font-size: 12px;
-  line-height: 15px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+body, h1, h2, h3, h4, h5, h6 {
   font-family: Verdana, Arial, sans-serif;
-  font-weight: bold;
-}
-
-h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 14px;
 }
 
 .logo-img a {
@@ -33,6 +21,8 @@ h2 {
 
 .block-ding-user-frontend-ding-username h2.block-title {
   font-size: 12px;
+  padding: 8px 0 0 25px;
+  height: 23px;
 }
 
 #block-locale-language,
@@ -576,7 +566,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .user-menu-expand {
   right: 0;
-  top: 60px;
+  top: 61px;
 }
 
 .zone-menu-wrapper {
