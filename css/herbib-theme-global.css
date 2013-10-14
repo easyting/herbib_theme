@@ -1,30 +1,18 @@
 body,
 .edit-user-profile input,
 #edit-account .form-text,
-.page-user-login .region-content-inner input[type="text"],
-.page-user-login .region-content-inner input[type="password"],
+.page-user #user-login input[type="text"],
+.page-user #user-login input[type="password"],
 .pane-ting-object-voxb-tags form .form-text {
   background-color: #a39e8f;
 }
 
 body {
-  font-family: Verdana, Arial, sans-serif;
   font-size: 12px;
-  line-height: 15px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+body, h1, h2, h3, h4, h5, h6 {
   font-family: Verdana, Arial, sans-serif;
-  font-weight: bold;
-}
-
-h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 14px;
 }
 
 .logo-img a {
@@ -33,6 +21,9 @@ h2 {
 
 .block-ding-user-frontend-ding-username h2.block-title {
   font-size: 12px;
+  padding: 8px 0 0 25px;
+  height: 23px;
+  min-height: inherit;
 }
 
 #block-locale-language,
@@ -64,7 +55,8 @@ span.ext,
 
 .block-search-form form .ui-autocomplete-input,
 .no-js .block-search-form form .form-item input[type="text"],
-.block-search-form form input[name="search_block_form"] {
+.block-search-form form input[name="search_block_form"],
+.not-logged-in.page-user .region-content-inner {
   background-color: #fff;
 }
 
@@ -101,7 +93,8 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   background-color: #79726a;
 }
 
-.node-type-ding-event .event-short-info .views-field-field-event-date,
+.node-type-ding-event .event-short-info .views-field-field-event-date
+.field-content, .node-type-ding-event .event-short-info .views-field-field-event-fee,
 .node-type-ding-event .event-short-info .views-field-group-audience a,
 .node-type-ding-event .event-short-info .views-field-field-event-fee,
 .ding_nodelist-single .ding_nodelist-items .category a,
@@ -140,7 +133,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .page-taxonomy-term.responsive-layout-mobile .view-taxonomy-term .item-list .pager-current,
 .responsive-layout-mobile .search-results-tabs ul.primary li a,
 .responsive-layout-mobile .search-results-tabs ul.primary li a:hover,
-.page-search-ting.responsive-layout-mobile .pane-ting-search-records-per-page a,
+.page-search-ting.responsive-layout-mobile .pane-ting-search-records-per-page .pane-content a,
 .responsive-layout-mobile .secondary-tabs ul.secondary li a,
 .responsive-layout-mobile .pane-loans .operations .renew-loan-button input,
 .responsive-layout-mobile .edit-user-profile .form-submit,
@@ -167,7 +160,6 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .pane-system-main-menu ul li.expanded a,
 .pane-ding-library-ding-sidebar-menu ul li.expanded a,
 .pane-menu-tree ul li.expanded a,
-.pane-ding-item-list .pane-title,
 .pane-ding-related-items .pane-title,
 .responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit {
   background-color: #ff6c00;
@@ -204,27 +196,27 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   background-color: #151106;
 }
 
-.block-main-menu .content > ul li:first-child,
+.block-main-menu .content > ul > li:first-child,
 .pane-ding-library-ding-sidebar-menu.main-menu-600 ul li a,
-.block-main-menu .content > ul li:first-child.active > a {
+.block-main-menu .content > ul > li:first-child.active > a {
   background-color: #a94598;
 }
 
-.block-main-menu .content > ul li:first-child + li,
+.block-main-menu .content > ul > li:first-child + li,
 .pane-ding-library-ding-sidebar-menu.main-menu-606 ul li a,
-.block-main-menu .content  > ul li:first-child + li.active > a {
+.block-main-menu .content  > ul > li:first-child + li.active > a {
   background-color: #178498;
 }
 
-.block-main-menu .content > ul li:first-child + li + li,
+.block-main-menu .content > ul > li:first-child + li + li,
 .pane-ding-library-ding-sidebar-menu.main-menu-652 ul li a,
-.block-main-menu .content  > ul li:first-child + li + li.active > a {
+.block-main-menu .content  > ul > li:first-child + li + li.active > a {
   background-color: #85a0c3;
 }
 
-.block-main-menu .content > ul li:first-child + li + li + li,
+.block-main-menu .content > ul > li:first-child + li + li + li,
 .pane-ding-library-ding-sidebar-menu.main-menu-612 ul li a,
-.block-main-menu .content  > ul li:first-child + li + li + li.active > a {
+.block-main-menu .content  > ul > li:first-child + li + li + li.active > a {
   background-color: #c3bf2c;
 }
 
@@ -474,7 +466,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   border: none;
 }
 
-.pane-ding-library-ding-sidebar-menu .pane-content > ul > li > a {
+.pane-ding-library-ding-sidebar-menu .pane-content > ul > li > a.active {
   border-bottom: 2px solid #161107;
 }
 
@@ -525,6 +517,15 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   padding-right: 98px;
 }
 
+#search-block-form {
+  vertical-align: baseline;
+}
+
+.block-search-form form input[type="text"],
+.block-search-form form .form-actions input[type="submit"] {
+  height: 47px;
+}
+
 .block-search-form form .form-actions input {
   height: 29px;
   line-height: 29px;
@@ -532,6 +533,10 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   right: -98px;
   top: 0;
   width: 94px;
+}
+
+.region-branding {
+  bottom: 0;
 }
 
 .block-search-form form .extendsearch-advanced .fieldset-wrapper {
@@ -553,7 +558,6 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 #block-menu-menu-secondary-menu {
   float: inherit;
-  padding: 6px;
 }
 
 .secondary-menu-expand {
@@ -563,11 +567,15 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .user-menu-expand {
   right: 0;
-  top: 60px;
+  top: 61px;
 }
 
 .zone-menu-wrapper {
   margin-right: 98px;
+}
+
+.responsive-layout-mobile .zone-menu-wrapper {
+  margin-top: 14px;
 }
 
 .responsive-layout-mobile .block-search-form,
@@ -631,8 +639,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   margin: 0;
 }
 
-.block-search-form form .ui-autocomplete-input,
-.block-search-form form input[name="search_block_form"] {
+.block-search-form form .ui-autocomplete-input {
   height: 50px;
 }
 
@@ -649,7 +656,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 }
 
 .block-search-form form .extendsearch-advanced .fieldset-wrapper {
-  top: 54px;
+  top: 50px;
 }
 
 .no-js .block-ding-user-frontend-ding-username .block-inner > .content,
@@ -704,6 +711,10 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .page-ting-object .block-menu-secondary-menu .collapsed {
   height: auto;
+}
+
+.block-system-main #user-login {
+  padding: 10px;
 }
 
 /* Verdana font */
@@ -833,8 +844,8 @@ footer .block-menu .block-title,
 .pane-system-main-menu ul li a,
 .pane-category-menu ul li a,
 .pane-ding-library-ding-sidebar-menu ul li a,
+.node-type-ding-event .event-short-info .views-field-field-event-date .field-content,
 .node-type-ding-event .event-short-info .views-field-field-category a,
-.node-type-ding-event .event-short-info .views-field-field-event-date,
 .node-type-ding-event .event-short-info .views-field-field-event-fee,
 .node-type-ding-event .content-event-day .pane-title,
 .pane-node-comments .add-comment-button,
@@ -975,10 +986,10 @@ footer .block-menu li a,
 .page-ting-collection .field-name-ting-abstract,
 .page-ting-object .field-name-ting-abstract,
 .field-type-ting-abstract,
-.page-user-login .region-content-inner,
-.page-user-login .region-content-inner .form-submit,
-.page-user-login .region-content-inner input[type="text"],
-.page-user-login .region-content-inner input[type="password"],
+.page-user #user-login,
+.page-user #user-login .form-submit,
+.page-user #user-login input[type="text"],
+.page-user #user-login input[type="password"],
 .pane-ting-object-voxb-tags form .form-submit,
 .pane-ting-object-voxb-tags form .form-text,
 .node-type-ding-event .content-event-month,
@@ -1045,7 +1056,74 @@ footer .block-menu li a,
   font-family: Verdana, Arial, sans-serif;
 }
 
+.form-item-search-block-form.spinner-wrapper:after {
+  top: 16px;
+}
+
 .page-node .node,
 .pane-term-description .pane-content {
   font-size: 12px;
+}
+
+.page-user #user-login input[type="password"] {
+  background-color: #a39e8f;
+  border: none;
+  clear: none;
+  color: #000;
+  font: 12px Verdana, Arial, sans-serif;
+  height: 30px;
+  margin: 0;
+  padding: 0 5px;
+  width: 60%;
+}
+
+.page-user #user-login .form-submit {
+  background: none;
+  border: none;
+  border-radius: 0;
+  color: #cc5f0a;
+  font: 18px Verdana, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-shadow: none;
+}
+
+.page-user #user-login label {
+  color: #000;
+  display: block;
+  font-weight: normal;
+  height: 30px;
+  margin: 0;
+  padding: 0 20px 0 0;
+  text-align: left;
+}
+
+.block-main-menu .content > ul > li {
+  height: 29px;
+}
+
+.block-main-menu .content > ul > li a {
+  line-height: 29px;
+  padding: 0 10px;
+}
+
+#region-header-second ul li {
+  margin: 0;
+  padding: 0;
+}
+
+#region-header-second ul li a {
+  padding: 0 10px;
+  line-height: 29px;
+}
+
+.ui-dialog .field-name-ting-author a,
+.ui-dialog .field-name-ting-author a:link,
+.ui-dialog .reservation-link-ajax a {
+  color: #222;
+}
+
+.responsive-layout-mobile .ding_nodelist-slider .next,
+.responsive-layout-mobile .ding_nodelist-slider .prev {
+  background-image: url(../images/vert-slider-sprite-mobile.png);
 }

@@ -34,9 +34,25 @@
   z-index: 50;
 }
 
+.zone-wrapper .region-user-second {
+  width: 310px;
+}
+
 .zone-menu-wrapper {
   position: relative;
   z-index: 48;
+}
+
+#region-branding {
+  padding-top: 36px;
+}
+
+#edit-actions input[type="submit"] {
+  padding-left: 10px;
+}
+
+.block-search-form form .extendsearch-advanced .fieldset-wrapper {
+  width: 284px;
 }
 
 .zone-branding-wrapper {
@@ -76,4 +92,12 @@
 
 .block-main-menu .content > ul > li > a {
   font-size: 11px;
+}
+
+#region-user-first {
+  bottom: -10px;
+}
+
+.block-system-main .content .panel-panel.grid-12 {
+  margin-left: 0;
 }

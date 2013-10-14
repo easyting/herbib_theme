@@ -20,10 +20,6 @@
   position: static;
 }
 
-.block-search-form {
-  height: 50px;
-}
-
 .node-type-ding-event .content-event-day .pane-content,
 .node-type-ding-event .content-event-month {
   border-color: #79726a;
@@ -97,4 +93,16 @@
 
 .block-main-menu .content > .expanded-menu {
   height: 56px;
+}
+
+#region-user-second {
+  bottom: 70px;
+  position: absolute;
+  right: 0;
+}
+
+#region-user-first {
+  bottom: 10px;
+  position: absolute;
+  right: 0;
 }
