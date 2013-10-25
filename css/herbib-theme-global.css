@@ -1098,9 +1098,7 @@ footer .block-menu li a,
   text-align: left;
 }
 
-.block-main-menu .content > ul > li a,
-.block-main-menu .content ul li.active > a,
-.block-main-menu .content ul li ul.menu li a {
+#page .block-main-menu .content ul li a {
   line-height: 29px;
   display: block;
   height: 29px;
