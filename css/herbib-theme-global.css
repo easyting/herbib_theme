@@ -1125,3 +1125,7 @@ footer .block-menu li a,
 .responsive-layout-mobile .ding_nodelist-slider .prev {
   background-image: url(../images/vert-slider-sprite-mobile.png);
 }
+
+.pay-button {
+  display: none;
+}
