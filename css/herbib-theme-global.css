@@ -498,7 +498,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   background-position: 12px 0;
   border-top: 2px solid #151106;
   left: 0;
-  top: 25px;
+  bottom: 0;
   width: 100%;
 }
 
@@ -1098,12 +1098,10 @@ footer .block-menu li a,
   text-align: left;
 }
 
-.block-main-menu .content > ul > li {
-  height: 29px;
-}
-
-.block-main-menu .content > ul > li a {
+#page .block-main-menu .content ul li a {
   line-height: 29px;
+  display: block;
+  height: 29px;
   padding: 0 10px;
 }
 
