@@ -93,6 +93,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   background-color: #79726a;
 }
 
+.page-user .user-page-tabs ul.primary > li.active > a,
 .node-type-ding-event .event-short-info .views-field-field-event-date
 .field-content, .node-type-ding-event .event-short-info .views-field-field-event-fee,
 .node-type-ding-event .event-short-info .views-field-group-audience a,
@@ -165,6 +166,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   background-color: #ff6c00;
 }
 
+.page-user .user-page-tabs ul.primary > li > a,
 .pane-system-main-menu ul li a,
 .pane-category-menu ul li a,
 .pane-ding-library-opening-hours-ding-library-opened-today,
@@ -348,6 +350,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   color: #161107;
 }
 
+.page-user .user-page-tabs ul.primary > li.active a + ul a,
 .block-search-form form .form-actions input,
 footer .block-menu li a:link,
 footer .block-menu li a:visited,
@@ -778,6 +781,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   font-weight: bold;
 }
 
+#page .user-page-tabs ul.primary li a,
 .block-search-form form .ui-autocomplete-input,
 ul.ui-autocomplete li a.ui-corner-all,
 .block-ding-user-frontend-ding-username h2 span,
