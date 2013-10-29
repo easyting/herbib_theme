@@ -162,7 +162,8 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .pane-ding-library-ding-sidebar-menu ul li.expanded a,
 .pane-menu-tree ul li.expanded a,
 .pane-ding-related-items .pane-title,
-.responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit {
+.responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit,
+.node-type-ding-event .event-short-info .views-field-group-audience .field-content {
   background-color: #ff6c00;
 }
 
