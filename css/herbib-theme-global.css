@@ -571,7 +571,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .user-menu-expand {
   right: 0;
-  top: 61px;
+  top: 57px;
 }
 
 .zone-menu-wrapper {
@@ -594,18 +594,18 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .responsive-layout-mobile .block-ding-user-frontend-ding-username {
   right: 0;
-  top: 95px;
+  top: 92px;
   z-index: 49;
 }
 
 .responsive-layout-mobile .block-system-user-menu.even {
   right: 0;
-  top: 126px;
+  top: 123px;
 }
 
 .responsive-layout-mobile .block-user-login {
   right: 0;
-  top: 95px;
+  top: 93px;
 }
 
 .responsive-layout-mobile .block-user-login .block-inner .content {
@@ -614,12 +614,12 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .responsive-layout-mobile .block-ding-user-frontend-ding-user-loan-number {
   right: 0;
-  top: 126px;
+  top: 123px;
 }
 
 .responsive-layout-mobile .block-system-user-menu {
   right: 0;
-  top: 208px;
+  top: 205px;
 }
 
 .pane-page-tabs ul.primary li {
