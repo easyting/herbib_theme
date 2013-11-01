@@ -93,6 +93,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   background-color: #79726a;
 }
 
+.pane-category-menu-fold .item-list > ul > li > a.active,
 .page-user .user-page-tabs ul.primary > li.active > a,
 .node-type-ding-event .event-short-info .views-field-field-event-date
 .field-content, .node-type-ding-event .event-short-info .views-field-field-event-fee,
@@ -167,6 +168,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   background-color: #ff6c00;
 }
 
+.pane-category-menu-fold .item-list > ul > li > a,
 .page-user .user-page-tabs ul.primary > li > a,
 .pane-system-main-menu ul li a,
 .pane-category-menu ul li a,
@@ -351,6 +353,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   color: #161107;
 }
 
+.pane-category-menu-fold .more-link a,
 .page-user .user-page-tabs ul.primary > li.active a + ul a,
 .block-search-form form .form-actions input,
 footer .block-menu li a:link,
