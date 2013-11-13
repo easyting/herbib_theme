@@ -501,6 +501,15 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 }
 
 /* Padding and margins */
+.region.region-user-second {
+  margin-bottom: 0;
+}
+
+.block-user-login,
+.block-ding-user-frontend {
+  min-height: 47px;
+}
+
 .block-main-menu .content ul li.active .menu-arrow {
   background-position: 12px 0;
   border-top: 2px solid #151106;
