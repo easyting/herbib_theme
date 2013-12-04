@@ -61,6 +61,7 @@ span.ext,
 }
 
 .block-search-form form .extendsearch-advanced input[type="text"],
+.block-search-form form .extendsearch-advanced select,
 ul.ui-autocomplete li .ui-state-hover,
 ul.ui-autocomplete li .ui-state-active,
 ul.ui-autocomplete li .ui-corner-all:hover,
@@ -70,7 +71,9 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 }
 
 .block-search-form form .extendsearch-advanced input[type="text"]:active,
-.block-search-form form .extendsearch-advanced input[type="text"]:focus {
+.block-search-form form .extendsearch-advanced input[type="text"]:focus,
+.block-search-form form .extendsearch-advanced .form-item select:active,
+.block-search-form form .extendsearch-advanced .form-item select:focus {
   background-color: #c0c0c0;
 }
 
@@ -446,10 +449,21 @@ a:hover,
 ul.ui-autocomplete,
 .block-search-form form .extendsearch-advanced input[type="text"]:active,
 .block-search-form form .extendsearch-advanced input[type="text"]:focus,
+.block-search-form form .extendsearch-advanced .form-item select:active,
+.block-search-form form .extendsearch-advanced .form-item select:focus,
 .block-search-form form input[name="search_block_form"]:active,
 .block-search-form form input[name="search_block_form"]:focus,
 ul.ui-autocomplete li.ui-menu-item:hover {
   border-color: #ccc;
+}
+
+.block-search-form form .extendsearch-advanced label {
+  display: none;
+}
+
+.block-search-form form .extendsearch-advanced .fieldset-wrapper input,
+.block-search-form form .extendsearch-advanced .fieldset-wrapper select {
+  width: 100%;
 }
 
 .node-type-ding-event .content-event-day .pane-content,
