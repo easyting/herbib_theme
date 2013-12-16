@@ -8,7 +8,7 @@
 }
 
 #region-header-second {
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 #block-menu-menu-secondary-menu {
@@ -89,10 +89,6 @@
 
 .block-main-menu .content ul li ul {
   top: 27px;
-}
-
-.block-main-menu .content > .expanded-menu {
-  height: 56px;
 }
 
 #region-user-second {

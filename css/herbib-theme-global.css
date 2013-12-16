@@ -61,6 +61,7 @@ span.ext,
 }
 
 .block-search-form form .extendsearch-advanced input[type="text"],
+.block-search-form form .extendsearch-advanced select,
 ul.ui-autocomplete li .ui-state-hover,
 ul.ui-autocomplete li .ui-state-active,
 ul.ui-autocomplete li .ui-corner-all:hover,
@@ -70,7 +71,9 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 }
 
 .block-search-form form .extendsearch-advanced input[type="text"]:active,
-.block-search-form form .extendsearch-advanced input[type="text"]:focus {
+.block-search-form form .extendsearch-advanced input[type="text"]:focus,
+.block-search-form form .extendsearch-advanced .form-item select:active,
+.block-search-form form .extendsearch-advanced .form-item select:focus {
   background-color: #c0c0c0;
 }
 
@@ -93,6 +96,8 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   background-color: #79726a;
 }
 
+.pane-category-menu-fold .item-list > ul > li > a.active,
+.page-user .user-page-tabs ul.primary > li.active > a,
 .node-type-ding-event .event-short-info .views-field-field-event-date
 .field-content, .node-type-ding-event .event-short-info .views-field-field-event-fee,
 .node-type-ding-event .event-short-info .views-field-group-audience a,
@@ -161,10 +166,13 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .pane-ding-library-ding-sidebar-menu ul li.expanded a,
 .pane-menu-tree ul li.expanded a,
 .pane-ding-related-items .pane-title,
-.responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit {
+.responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit,
+.node-type-ding-event .event-short-info .views-field-group-audience .field-content {
   background-color: #ff6c00;
 }
 
+.pane-category-menu-fold .item-list > ul > li > a,
+.page-user .user-page-tabs ul.primary > li > a,
 .pane-system-main-menu ul li a,
 .pane-category-menu ul li a,
 .pane-ding-library-opening-hours-ding-library-opened-today,
@@ -348,6 +356,8 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   color: #161107;
 }
 
+.pane-category-menu-fold .more-link a,
+.page-user .user-page-tabs ul.primary > li.active a + ul a,
 .block-search-form form .form-actions input,
 footer .block-menu li a:link,
 footer .block-menu li a:visited,
@@ -439,10 +449,21 @@ a:hover,
 ul.ui-autocomplete,
 .block-search-form form .extendsearch-advanced input[type="text"]:active,
 .block-search-form form .extendsearch-advanced input[type="text"]:focus,
+.block-search-form form .extendsearch-advanced .form-item select:active,
+.block-search-form form .extendsearch-advanced .form-item select:focus,
 .block-search-form form input[name="search_block_form"]:active,
 .block-search-form form input[name="search_block_form"]:focus,
 ul.ui-autocomplete li.ui-menu-item:hover {
   border-color: #ccc;
+}
+
+.block-search-form form .extendsearch-advanced label {
+  display: none;
+}
+
+.block-search-form form .extendsearch-advanced .fieldset-wrapper input,
+.block-search-form form .extendsearch-advanced .fieldset-wrapper select {
+  width: 100%;
 }
 
 .node-type-ding-event .content-event-day .pane-content,
@@ -494,11 +515,20 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 }
 
 /* Padding and margins */
+.region.region-user-second {
+  margin-bottom: 0;
+}
+
+.block-user-login,
+.block-ding-user-frontend {
+  min-height: 47px;
+}
+
 .block-main-menu .content ul li.active .menu-arrow {
   background-position: 12px 0;
   border-top: 2px solid #151106;
   left: 0;
-  top: 25px;
+  bottom: 0;
   width: 100%;
 }
 
@@ -567,7 +597,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .user-menu-expand {
   right: 0;
-  top: 61px;
+  top: 57px;
 }
 
 .zone-menu-wrapper {
@@ -590,18 +620,18 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .responsive-layout-mobile .block-ding-user-frontend-ding-username {
   right: 0;
-  top: 95px;
+  top: 92px;
   z-index: 49;
 }
 
 .responsive-layout-mobile .block-system-user-menu.even {
   right: 0;
-  top: 126px;
+  top: 123px;
 }
 
 .responsive-layout-mobile .block-user-login {
   right: 0;
-  top: 95px;
+  top: 93px;
 }
 
 .responsive-layout-mobile .block-user-login .block-inner .content {
@@ -610,12 +640,12 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .responsive-layout-mobile .block-ding-user-frontend-ding-user-loan-number {
   right: 0;
-  top: 126px;
+  top: 123px;
 }
 
 .responsive-layout-mobile .block-system-user-menu {
   right: 0;
-  top: 208px;
+  top: 205px;
 }
 
 .pane-page-tabs ul.primary li {
@@ -778,6 +808,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   font-weight: bold;
 }
 
+#page .user-page-tabs ul.primary li a,
 .block-search-form form .ui-autocomplete-input,
 ul.ui-autocomplete li a.ui-corner-all,
 .block-ding-user-frontend-ding-username h2 span,
@@ -1098,12 +1129,10 @@ footer .block-menu li a,
   text-align: left;
 }
 
-.block-main-menu .content > ul > li {
-  height: 29px;
-}
-
-.block-main-menu .content > ul > li a {
+#page .block-main-menu .content ul li a {
   line-height: 29px;
+  display: block;
+  height: 29px;
   padding: 0 10px;
 }
 
@@ -1126,4 +1155,8 @@ footer .block-menu li a,
 .responsive-layout-mobile .ding_nodelist-slider .next,
 .responsive-layout-mobile .ding_nodelist-slider .prev {
   background-image: url(../images/vert-slider-sprite-mobile.png);
+}
+
+.pay-button {
+  display: none;
 }
