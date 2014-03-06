@@ -96,6 +96,9 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   background-color: #79726a;
 }
 
+.views-field-field-address .street-block,
+.views-field-field-address .addressfield-container-inline,
+.views-field-field-address .country,
 .pane-category-menu-fold .item-list > ul > li > a.active,
 .page-user .user-page-tabs ul.primary > li.active > a,
 .node-type-ding-event .event-short-info .views-field-field-event-date
@@ -562,7 +565,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
   padding: 0 0 0 10px;
   right: -98px;
   top: 0;
-  width: 94px;
+  width: 98px;
 }
 
 .region-branding {
