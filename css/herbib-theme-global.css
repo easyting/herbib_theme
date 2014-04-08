@@ -1165,3 +1165,30 @@ footer .block-menu li a,
 .pay-button {
   display: none;
 }
+
+.responsive-layout-wide .block-user-login,
+.responsive-layout-wide .block-ding-username,
+.responsive-layout-normal .block-user-login,
+.responsive-layout-normal .block-ding-username,
+.responsive-layout-narrow .block-user-login,
+.responsive-layout-narrow .block-ding-username {
+  right: 10px;
+}
+
+.responsive-layout-wide #region-user-first,
+.responsive-layout-wide .block-user-login,
+.responsive-layout-wide .block-ding-username {
+  min-width: 390px;
+}
+
+.responsive-layout-normal #region-user-first,
+.responsive-layout-normal .block-user-login,
+.responsive-layout-normal .block-ding-username {
+  min-width: 310px;
+}
+
+.responsive-layout-narrow #region-user-first,
+.responsive-layout-narrow .block-user-login,
+.responsive-layout-narrow .block-ding-username {
+  min-width: 230px;
+}
