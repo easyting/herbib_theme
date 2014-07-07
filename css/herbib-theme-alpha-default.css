@@ -20,6 +20,7 @@
   position: static;
 }
 
+.node-type-ding-event .content-event-month .pane-content,
 .node-type-ding-event .content-event-day .pane-content,
 .node-type-ding-event .content-event-month {
   border-color: #79726a;

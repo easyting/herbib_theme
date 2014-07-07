@@ -90,6 +90,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 
 .page-ting-object .field-type-ting-subjects .subject,
 .page-ting-collection .field-type-ting-subjects .subject,
+.pane-ding-item-viewer-item-viewer .field-type-ting-subjects .subject,
 .pane-search-result .ding-format-long .field-type-ting-subjects .subject,
 .ui-dialog,
 .pane-ting-object-voxb-tags .tag a {
@@ -117,6 +118,7 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .pane-ding-facetbrowser .form-wrapper legend.active span,
 .search-results-tabs ul.primary li.active a.active,
 .pane-page-tabs.search-results-tabs ul.primary li a.active:hover,
+.pane-ding-item-viewer-item-viewer .field-type-ting-subjects .subject:hover,
 .pane-search-result .ding-format-long .field-type-ting-subjects .subject:hover,
 .pane-search-result .ding-format-long .field-type-ting-subjects .active,
 .page-ting-object .field-type-ting-subjects .subject:hover,
@@ -1162,4 +1164,31 @@ footer .block-menu li a,
 
 .pay-button {
   display: none;
+}
+
+.responsive-layout-wide .block-user-login,
+.responsive-layout-wide .block-ding-username,
+.responsive-layout-normal .block-user-login,
+.responsive-layout-normal .block-ding-username,
+.responsive-layout-narrow .block-user-login,
+.responsive-layout-narrow .block-ding-username {
+  right: 10px;
+}
+
+.responsive-layout-wide #region-user-first,
+.responsive-layout-wide .block-user-login,
+.responsive-layout-wide .block-ding-username {
+  min-width: 390px;
+}
+
+.responsive-layout-normal #region-user-first,
+.responsive-layout-normal .block-user-login,
+.responsive-layout-normal .block-ding-username {
+  min-width: 310px;
+}
+
+.responsive-layout-narrow #region-user-first,
+.responsive-layout-narrow .block-user-login,
+.responsive-layout-narrow .block-ding-username {
+  min-width: 230px;
 }
