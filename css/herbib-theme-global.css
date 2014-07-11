@@ -102,17 +102,10 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .views-field-field-address .country,
 .pane-category-menu-fold .item-list > ul > li > a.active,
 .page-user .user-page-tabs ul.primary > li.active > a,
-.node-type-ding-event .event-short-info .views-field-field-event-date
-.field-content, .node-type-ding-event .event-short-info .views-field-field-event-fee,
 .node-type-ding-event .event-short-info .views-field-group-audience a,
-.node-type-ding-event .event-short-info .views-field-field-event-fee,
-.ding_nodelist-single .ding_nodelist-items .category a,
-.ding_nodelist-horizontal_accordion .ding_nodelist-items .item .label,
 .ding_nodelist-carousel .ding_nodelist-items .item .event-label,
 .ding_nodelist-single .ding_nodelist-items .item .event-label,
 .ding_nodelist-carousel .ding_nodelist-items .category a,
-.node-type-ding-news .news-short-info .views-field-field-editorial-base-n a,
-.node-type-ding-event .content-event-day .pane-title,
 .ting-search-carousel .search-controller li.active a,
 .ui-tabs-nav li.active,
 .pane-ding-facetbrowser .form-wrapper legend.active span,
@@ -170,7 +163,6 @@ ul.ui-autocomplete li.ui-menu-item:hover {
 .pane-system-main-menu ul li.expanded a,
 .pane-ding-library-ding-sidebar-menu ul li.expanded a,
 .pane-menu-tree ul li.expanded a,
-.pane-ding-related-items .pane-title,
 .responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit,
 .node-type-ding-event .event-short-info .views-field-group-audience .field-content {
   background-color: #ff6c00;
