@@ -1076,7 +1076,8 @@ footer .block-menu li a,
 .page-ting-collection .field-type-ting-title h1,
 .node-type-ding-news .news-short-info .news-title,
 .node-type-ding-event .event-short-info .event-title,
-.pane-category-menu .pane-title {
+.pane-category-menu .pane-title,
+.node-type-ding-event .event-short-info .views-field-group-audience a {
   font-family: Verdana, Arial, sans-serif;
 }
 
