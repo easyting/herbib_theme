@@ -1151,10 +1151,6 @@ footer .block-menu li a,
   background-image: url(../images/vert-slider-sprite-mobile.png);
 }
 
-.pay-button {
-  display: none;
-}
-
 .responsive-layout-wide .block-user-login,
 .responsive-layout-wide .block-ding-username,
 .responsive-layout-normal .block-user-login,
